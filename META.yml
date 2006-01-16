@@ -1,0 +1,30 @@
+---
+name: Template-Preprocessor-TTML
+version: 0.0100
+author:
+  - Shlomi Fish <shlomif@iglu.org.il>
+abstract: |-
+  Preprocess files using the Template Toolkit 
+  from the command line.
+license: bsd
+resources:
+  license: http://www.opensource.org/licenses/bsd-license.php
+requires:
+  Class::Accessor: 0
+  Template: 0
+  Test::More: 0
+  perl: 5.6.0
+provides:
+  Template::Preprocessor::TTML:
+    file: lib/Template/Preprocessor/TTML.pm
+    version: 0.0100
+  Template::Preprocessor::TTML::Base:
+    file: lib/Template/Preprocessor/TTML/Base.pm
+  Template::Preprocessor::TTML::CmdLineProc:
+    file: lib/Template/Preprocessor/TTML/CmdLineProc.pm
+  Template::Preprocessor::TTML::CmdLineProc::Results:
+    file: lib/Template/Preprocessor/TTML/CmdLineProc.pm
+generated_by: Module::Build version 0.2704
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.2.html
+  version: 1.2
