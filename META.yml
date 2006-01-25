@@ -1,6 +1,6 @@
 ---
 name: Template-Preprocessor-TTML
-version: 0.0100
+version: 0.0101
 author:
   - Shlomi Fish <shlomif@iglu.org.il>
 abstract: |-
@@ -17,7 +17,7 @@ requires:
 provides:
   Template::Preprocessor::TTML:
     file: lib/Template/Preprocessor/TTML.pm
-    version: 0.0100
+    version: 0.0101
   Template::Preprocessor::TTML::Base:
     file: lib/Template/Preprocessor/TTML/Base.pm
   Template::Preprocessor::TTML::CmdLineProc:
